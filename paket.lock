@@ -5,6 +5,11 @@ NUGET
   remote: https://api.nuget.org/v3/index.json
     FSharp.Core (4.3.2)
 
+GROUP DocsCompilation
+NUGET
+  remote: https://api.nuget.org/v3/index.json
+    Microsoft.WindowsDesktop.App.Ref (3.1)
+
 GROUP Fake
 STORAGE: NONE
 NUGET

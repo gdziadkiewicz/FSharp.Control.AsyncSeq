@@ -38,4 +38,9 @@ group Fake
     nuget Fake.DotNet.NuGet            ~> 5.20.0
     nuget Fake.DotNet.MsBuild          ~> 5.20.0
     nuget Fake.Tools.Git               ~> 5.20.0
-	nuget Fake.DotNet.Paket            ~> 5.20.0
+    nuget Fake.DotNet.Paket            ~> 5.20.0
+
+group DocsCompilation
+    source https://api.nuget.org/v3/index.json
+
+    nuget Microsoft.WindowsDesktop.App.Ref 3.1.0
